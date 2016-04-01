@@ -14,6 +14,12 @@
 		16C4221B1CAE248A0092C4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C422191CAE248A0092C4D1 /* LaunchScreen.storyboard */; };
 		16C422261CAE248A0092C4D1 /* ModuLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422251CAE248A0092C4D1 /* ModuLabsTests.swift */; };
 		16C422311CAE248A0092C4D1 /* ModuLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422301CAE248A0092C4D1 /* ModuLabsUITests.swift */; };
+		16C422441CAE24BF0092C4D1 /* DLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C4223E1CAE24BF0092C4D1 /* DLayer.swift */; };
+		16C422451CAE24BF0092C4D1 /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C4223F1CAE24BF0092C4D1 /* HolderView.swift */; };
+		16C422461CAE24BF0092C4D1 /* ILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422401CAE24BF0092C4D1 /* ILayer.swift */; };
+		16C422471CAE24BF0092C4D1 /* OLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422411CAE24BF0092C4D1 /* OLayer.swift */; };
+		16C422481CAE24BF0092C4D1 /* ULayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422421CAE24BF0092C4D1 /* ULayer.swift */; };
+		16C422491CAE24BF0092C4D1 /* WLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422431CAE24BF0092C4D1 /* WLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		16C4222C1CAE248A0092C4D1 /* ModuLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C422301CAE248A0092C4D1 /* ModuLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuLabsUITests.swift; sourceTree = "<group>"; };
 		16C422321CAE248A0092C4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C4223E1CAE24BF0092C4D1 /* DLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLayer.swift; sourceTree = "<group>"; };
+		16C4223F1CAE24BF0092C4D1 /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		16C422401CAE24BF0092C4D1 /* ILayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILayer.swift; sourceTree = "<group>"; };
+		16C422411CAE24BF0092C4D1 /* OLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLayer.swift; sourceTree = "<group>"; };
+		16C422421CAE24BF0092C4D1 /* ULayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULayer.swift; sourceTree = "<group>"; };
+		16C422431CAE24BF0092C4D1 /* WLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 		16C4220F1CAE248A0092C4D1 /* ModuLabs */ = {
 			isa = PBXGroup;
 			children = (
+				16C4223E1CAE24BF0092C4D1 /* DLayer.swift */,
+				16C4223F1CAE24BF0092C4D1 /* HolderView.swift */,
+				16C422401CAE24BF0092C4D1 /* ILayer.swift */,
+				16C422411CAE24BF0092C4D1 /* OLayer.swift */,
+				16C422421CAE24BF0092C4D1 /* ULayer.swift */,
+				16C422431CAE24BF0092C4D1 /* WLayer.swift */,
 				16C422101CAE248A0092C4D1 /* AppDelegate.swift */,
 				16C422121CAE248A0092C4D1 /* ViewController.swift */,
 				16C422141CAE248A0092C4D1 /* Main.storyboard */,
@@ -256,7 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C422451CAE24BF0092C4D1 /* HolderView.swift in Sources */,
+				16C422481CAE24BF0092C4D1 /* ULayer.swift in Sources */,
+				16C422471CAE24BF0092C4D1 /* OLayer.swift in Sources */,
+				16C422491CAE24BF0092C4D1 /* WLayer.swift in Sources */,
 				16C422131CAE248A0092C4D1 /* ViewController.swift in Sources */,
+				16C422441CAE24BF0092C4D1 /* DLayer.swift in Sources */,
+				16C422461CAE24BF0092C4D1 /* ILayer.swift in Sources */,
 				16C422111CAE248A0092C4D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
