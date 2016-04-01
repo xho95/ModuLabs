@@ -37,7 +37,7 @@ class ULayer: CAShapeLayer {
         let right = origin.x + lineWidth * 2
         let bottom = origin.y + lineWidth * 2
         
-        lineCap = kCALineCapSquare
+        self.lineCap = kCALineCapSquare
         rectanglePath.moveToPoint(CGPoint(x: origin.x, y: origin.y))
         rectanglePath.addLineToPoint(CGPoint(x: origin.x, y: bottom))
         rectanglePath.addLineToPoint(CGPoint(x: right, y: bottom))

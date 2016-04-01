@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1687BAC51CAE295B00A4897F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1687BAC41CAE295B00A4897F /* README.md */; };
 		16C422111CAE248A0092C4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422101CAE248A0092C4D1 /* AppDelegate.swift */; };
 		16C422131CAE248A0092C4D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C422121CAE248A0092C4D1 /* ViewController.swift */; };
 		16C422161CAE248A0092C4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C422141CAE248A0092C4D1 /* Main.storyboard */; };
@@ -291,7 +290,6 @@
 				16C422491CAE24BF0092C4D1 /* WLayer.swift in Sources */,
 				16C422131CAE248A0092C4D1 /* ViewController.swift in Sources */,
 				16C422441CAE24BF0092C4D1 /* DLayer.swift in Sources */,
-				1687BAC51CAE295B00A4897F /* README.md in Sources */,
 				16C422461CAE24BF0092C4D1 /* ILayer.swift in Sources */,
 				16C422111CAE248A0092C4D1 /* AppDelegate.swift in Sources */,
 			);

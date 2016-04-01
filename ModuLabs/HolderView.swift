@@ -11,8 +11,8 @@ import UIKit
 class HolderView: UIView {
     // MARK: - Properties
     var parentFrame: CGRect = CGRectZero
-
-    let lineWidth = 20.0
+    
+//    let lineWidth = 20.0
 
     // MARK: - Main Methods
     
@@ -35,7 +35,7 @@ class HolderView: UIView {
     func drawO() {
         let blackO = OLayer(point: CGPointMake(frame.width / 2, frame.height / 2))
         
-        layer.addSublayer(blackO)
+        self.layer.addSublayer(blackO)
 
         blackO.animateStrokeWithColor(UIColor.blackColor())
         

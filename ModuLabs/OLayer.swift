@@ -18,9 +18,9 @@ class OLayer: CAShapeLayer {
     convenience init(point: CGPoint) {
         self.init()
 
-        fillColor = UIColor.clearColor().CGColor
-        lineWidth = 20.0
-        lineJoin = kCALineJoinRound
+        self.fillColor = UIColor.clearColor().CGColor
+        self.lineWidth = 20.0
+        self.lineJoin = kCALineJoinRound
         
         self.origin = CGPointMake(point.x + lineWidth * 0.7, point.y - lineWidth * 0.7)
         
