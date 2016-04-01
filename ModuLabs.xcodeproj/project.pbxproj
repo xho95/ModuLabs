@@ -86,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1687BAC31CAE264300A4897F /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				16C4223F1CAE24BF0092C4D1 /* HolderView.swift */,
+				16C4223E1CAE24BF0092C4D1 /* DLayer.swift */,
+				16C422421CAE24BF0092C4D1 /* ULayer.swift */,
+				16C422411CAE24BF0092C4D1 /* OLayer.swift */,
+				16C422401CAE24BF0092C4D1 /* ILayer.swift */,
+				16C422431CAE24BF0092C4D1 /* WLayer.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
 		16C422041CAE248A0092C4D1 = {
 			isa = PBXGroup;
 			children = (
@@ -109,18 +122,13 @@
 		16C4220F1CAE248A0092C4D1 /* ModuLabs */ = {
 			isa = PBXGroup;
 			children = (
-				16C4223E1CAE24BF0092C4D1 /* DLayer.swift */,
-				16C4223F1CAE24BF0092C4D1 /* HolderView.swift */,
-				16C422401CAE24BF0092C4D1 /* ILayer.swift */,
-				16C422411CAE24BF0092C4D1 /* OLayer.swift */,
-				16C422421CAE24BF0092C4D1 /* ULayer.swift */,
-				16C422431CAE24BF0092C4D1 /* WLayer.swift */,
 				16C422101CAE248A0092C4D1 /* AppDelegate.swift */,
 				16C422121CAE248A0092C4D1 /* ViewController.swift */,
 				16C422141CAE248A0092C4D1 /* Main.storyboard */,
 				16C422171CAE248A0092C4D1 /* Assets.xcassets */,
 				16C422191CAE248A0092C4D1 /* LaunchScreen.storyboard */,
 				16C4221C1CAE248A0092C4D1 /* Info.plist */,
+				1687BAC31CAE264300A4897F /* Intro */,
 			);
 			path = ModuLabs;
 			sourceTree = "<group>";
@@ -508,6 +516,7 @@
 				16C422371CAE248A0092C4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C422381CAE248A0092C4D1 /* Build configuration list for PBXNativeTarget "ModuLabsTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				16C4223A1CAE248A0092C4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C4223B1CAE248A0092C4D1 /* Build configuration list for PBXNativeTarget "ModuLabsUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				16C4223D1CAE248A0092C4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
